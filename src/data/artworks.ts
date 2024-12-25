@@ -1,0 +1,43 @@
+import { ArtworkType } from '../types';
+
+export const artworks: ArtworkType[] = [
+  {
+    id: '1',
+    title: 'Bronze Equilibrium',
+    artist: 'Elena Martinez',
+    price: 2800,
+    image: 'https://images.unsplash.com/photo-1554188248-986adbb73be4',
+    category: 'sculpture',
+    description: 'A modern bronze sculpture exploring themes of balance and motion.',
+    dimensions: '45cm x 30cm x 30cm',
+    material: 'Bronze',
+    year: 2023,
+    available: true,
+  },
+  {
+    id: '2',
+    title: 'Marble Serenity',
+    artist: 'Marcus Chen',
+    price: 3500,
+    image: 'https://images.unsplash.com/photo-1561214078-f3247647fc5e',
+    category: 'sculpture',
+    description: 'Marble sculpture depicting fluid movement frozen in time.',
+    dimensions: '60cm x 40cm x 40cm',
+    material: 'Marble',
+    year: 2024,
+    available: true,
+  },
+  {
+    id: '3',
+    title: 'Urban Symphony',
+    artist: 'Sarah Johnson',
+    price: 1800,
+    image: 'https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5',
+    category: 'painting',
+    description: 'Contemporary cityscape with vibrant colors and bold strokes.',
+    dimensions: '100cm x 80cm',
+    material: 'Acrylic on canvas',
+    year: 2024,
+    available: true,
+  },
+];
